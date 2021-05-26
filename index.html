@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
@@ -17,6 +19,7 @@
         <div class="sidebar-contents-1">
             <h1 class="logo">Logo</h1>
             <img src="assets/images/man.jpg" alt="admin-pic" class="admin_img">
+            <i class="fas fa-circle"></i>
             <p class="admin-name">Stephen Austin</p>
             <p class="admin-text">Bienvenu Super Admin</p>
         </div>
@@ -29,7 +32,7 @@
                 </span>
             </i><br><br>
 
-            <i class="fa fa-bookmark">
+            <i class="far fa-bookmark">
                 <span class="icon-span">
                     <a href="#">Tickets</a>
                 </span>
@@ -40,7 +43,7 @@
                     <a href="#">Facturation</a>
                 </span>
             </i><br><br>
-            <i class="fa fa-calendar">
+            <i class="far fa-calendar">
                 <span class="icon-span">
                     <a href="#">Planning</a>
                 </span>
@@ -51,21 +54,23 @@
 
 
         <div class="icon-space">
-            <i class="fa fa-shopping-cart">
+            <i class="far fa-shopping-cart">
                 <span class="icon-span">
                     <a href="#">Le Store</a>
                 </span>
             </i><br><br>
 
-            <i class='bx bxs-file-pdf'>
+            <i class="far fa-file-pdf">
                 <span class="icon-span">
                     <a href="#">Estimation & RDV</a>
+                    <span class="notification-count">3</span>
                 </span>
             </i><br><br>
 
             <i class='bx bx-paper-plane'>
                 <span class="icon-span">
                     <a href="#">Messagerie</a>
+                    <span class="notification-count-2">3</span>
                 </span>
             </i><br><br>
 
@@ -90,6 +95,7 @@
             <i class="far fa-chart-line">
                 <span class="icon-span">
                     <a href="#">Apport d'Affaires</a>
+                    <span class="notification-count-3">3</span>
                 </span>
             </i><br><br>
         </div>
@@ -110,26 +116,114 @@
         </div>
     </aside>
 
+
+
+
     <!-- Page Content -->
     <main style="margin-left:20%;">
-        <nav class="nav-container w3-teal">
-            <span class="nav-text">
-                <div class="nav-number">1</div>
-                <div>This is a text</div>
-                <small>Another one</small>
-            </span>
-            <span class="nav-text">
-                <div>1</div>
-                <div>This is a text</div>
-            </span>
+        <nav class="nav-container">
+            <div class="nav-span">
+                <p class="nav-count">1</p>
+                <div>
+                    <p class="nav-text">Projets</p>
+                    <small class="nav-text-small">En retard</small>
+                </div>
+            </div>
+
+            <div class="nav-span">
+                <p class="nav-count">1</p>
+                <div>
+                    <p class="nav-text">Projets</p>
+                    <small class="nav-text-small">En default</small>
+                </div>
+            </div>
+
+            <div class="nav-span">
+                <p class="nav-count">6</p>
+                <div>
+                    <p class="nav-text">Taches</p>
+                    <small class="nav-text-small">Sans deadline</small>
+                </div>
+            </div>
+
+            <div class="nav-span">
+                <p class="nav-count nav-text-color">2</p>
+                <div>
+                    <p class="nav-text">Candidatures</p>
+                    <small class="nav-text-small">A traiter</small>
+                </div>
+            </div>
+
+            <div class="nav-span">
+                <p class="nav-count nav-text-color">0</p>
+                <div>
+                    <p class="nav-text">Devis</p>
+                    <small class="nav-text-small">A traiter</small>
+                </div>
+            </div>
+
+            <div class="vertical-line"></div>
+            <i class="far fa-cog nav-icon"></i>
+
+            <div class="vertical-line-2"></div>
+            <i class="far fa-bell nav-icon"></i>
+            <span class="notification-count-nav">2</span>
+            <div class="vertical-line-3"></div>
+
+            <div class="nav-last-section">
+                <img src="assets/images/man.jpg" alt="admin-pic" class="admin_img">
+            </div>
+
+            <div>
+                <p class="nav-text">Stephen Austin</p>
+                <small class="nav-text-small nav-text-small-last">SuperAdmin</small>
+            </div>
+
+            <i class='bx bx-chevron-down'></i>
+                                                            
         </nav>
 
         <section class="main-container">
-          
+            <div class="grid-container">
+                <img src="./assets/images/grid-image.png" alt="grid-image" class="grid-item">
+                <img src="./assets/images/grid-image.png" alt="grid-image" class="grid-item">
+                <img src="./assets/images/grid-image.png" alt="grid-image" class="grid-item">
+                <img src="./assets/images/grid-image.png" alt="grid-image" class="grid-item">
+                <img src="./assets/images/grid-image.png" alt="grid-image" class="grid-item">
+                <img src="./assets/images/grid-image.png" alt="grid-image" class="grid-item">
+                <img src="./assets/images/grid-image.png" alt="grid-image" class="grid-item">
+                <img src="./assets/images/grid-image.png" alt="grid-image" class="grid-item">
+                <img src="./assets/images/grid-image.png" alt="grid-image" class="grid-item">
+                <img src="./assets/images/grid-image.png" alt="grid-image" class="grid-item">
+                <img src="./assets/images/Flightbox.png" alt="grid-image" class="grid-item">
+                <img src="./assets/images/plus.png" alt="grid-image" class="grid-item"> 
+            </div>  
         </section>
-
     </main>
 
 </body>
-
+<i class="fas fa-plus-circle"></i>
 </html>
+
+
+
+<!-- <div class="flex-container">
+    <div><div id="content1">VELDS</div><small id="content2">PARIS</small></div>
+    <div><div id="content1">VELDS</div><small id="content2">PARIS</small></div>
+    <div><div id="content1">VELDS</div><small id="content2">PARIS</small></div>
+    <div><div id="content1">VELDS</div><small id="content2">PARIS</small></div>
+</div>
+
+<div class="flex-container">
+    <div><div id="content1">VELDS</div><small id="content2">PARIS</small></div>
+    <div><div id="content1">VELDS</div><small id="content2">PARIS</small></div>
+    <div><div id="content1">VELDS</div><small id="content2">PARIS</small></div>
+    <div><div id="content1">VELDS</div><small id="content2">PARIS</small></div>
+</div>
+
+<div class="flex-container">
+    <div><div id="content1">VELDS</div><small id="content2">PARIS</small></div>
+    <div><div id="content1">VELDS</div><small id="content2">PARIS</small></div>
+    <div>FLIGHTBOX</div>
+    <div><div id="content1"><i class="fas fa-plus-circle"></i></div></i><small id="content2">Ajouter un Projet</small></div>
+</div>     -->
